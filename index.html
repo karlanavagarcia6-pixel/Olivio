@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olivio | Inicio</title>
+
+    <link rel="icon" href="Imagenes/logo.jpg" type="image/jpg">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" 
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
+          crossorigin="anonymous" 
+          referrerpolicy="no-referrer" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/global.css">
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/home.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+</head>
+
+<body>
+
+<header>
+    <div class="container header-expand">
+
+        <!-- Logo -->
+        <div class="container-logo">
+            <img src="Imagenes/logo.jpg" alt="Logo">
+            <span>Olivio</span>
+        </div>
+
+        <!-- Menú normal -->
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#acerca">Acerca</a></li>
+                <li><a href="opiniones.html">Opiniones</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <!-- Botón reserva -->
+        <a href="reserva.html" class="btn btn-primary">
+            Reserva una mesa
+            <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+        <!-- Botón hamburguesa -->
+        <button class="btn-toggle">
+            <i class="fa-solid fa-bars active"></i>
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+
+        <!-- Menú responsive -->
+        <div class="menu-responsive">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Acerca</a></li>
+                <li><a href="opiniones.html">Opioniones</a></li>
+                <li><a href="#">Menú</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+
+    </div>
+</header>
+
+<!-- HERO SECTION -->
+<section class="hero banner">
+    <div class="container">
+
+        <div class="content">
+            <span class="badge">Arte culinario</span>
+
+            <h1>
+                La gastronomía se redefine con <span>cada bocado</span>
+            </h1>
+
+            <p>
+                Sumérgete en una esperienza gastronomica senza igual, donde cada piatto es una sinfonía de sabores, tradición y passione.
+            </p>
+
+            <div class="container-button">
+                <a href="#" class="btn btn-primary">
+                    Reserva una mesa 
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="container-images">
+           <img src="Imagenes/Imagen fondo.jpg" 
+           alt="Hero Banner"
+           class="main-image"/>
+
+            <img src="Imagenes/Tiramisu.jpg" 
+                 alt="Hero Banner 1"
+                 class="img-banner-1"/>
+
+            <img src="Imagenes/Beef Lasagna.jpg" 
+                 alt="Hero Banner 2"
+                 class="img-banner-2"/>
+
+            <img src="Imagenes/Fettuccine Alfredo Easy Italian Pasta.jpg" 
+                 alt="Hero Banner 3"
+                 class="img-banner-3"/>
+        </div>
+
+    </div>
+</section>
+
+<!-- About us -->
+<section id="acerca" class="background-dark-1 section-about">
+    <div class="container">
+        <div class="container-images">
+            <img src="Imagenes/Primera imagen acerca de nosotros.jpg" 
+            Class="main-image"     
+            alt="About us 1">
+
+                 <img 
+                   src="Imagenes/Segunda imagen acerca de nosotros.jpg"
+                   class="img-about-1"
+                   alt="chef About"
+            />
+
+             <div class="card-info">
+            <i class="fa-solid fa-ranking-star"></i>
+            <h3>
+                Siempre pensando en ti
+            </h3>
+
+
+             </div>
+        </div>
+
+        <div class="content">
+            <span class="badge">
+                Sobre nosotros 
+            </span>
+            <h2 class="title">
+                Cocinamos con el corazón de 
+                <span>Italia</span>
+            </h2>
+            <p>
+                Nuestra cocina es un puente de emociones: pasión en la preparación, fusión en el sabor.
+            </p>
+            <ul>
+                <li>
+                    <i class="fa-solid fa-check"></i>
+                    <span>
+                        Lo mejor de lo cercano, con el sabor de Italia
+                    </span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-check"></i>
+                    <span>
+                        Platos pensados para cada estilo de vida
+                    </span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-check"></i>
+                    <span>
+                       Un encuentro de vinos y sabores que despiertan emociones
+                    </span>
+                </li>
+            </ul>
+            <div class="container-buttons">
+                
+                <a href="#" class="btn btn-primary"> De nuestra cocina a tu mesa, pide ahora
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+                <a href="#" class="btn btn-secondary"> Acércate a nuestra esencia
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+        </div>
+          
+ 
+       
+
+
+    </div>
+
+</section>
+
+<!--Platos principales-->
+
+<section id="menu" class="section-menu">
+    <div class="container">
+
+        <h2 class="menu-title">Nuestro Menú</h2>
+
+        <!-- ================= ENTRADAS ================= -->
+        <h3 class="menu-category">Entradas</h3>
+        <div class="menu-grid">
+
+            <div class="menu-item">
+                <div class="menu-img">
+                    <!-- Imagenes -->
+                    <img src="Imagenes/Ribiollita.jpg" alt="Entrada 1">
+                </div>
+                <div class="menu-info">
+                    <h4>Ribollita </h4>
+                    <p>Sopa toscana de verduras y pan.</p>
+                    <span class="price">$220</span>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="menu-img">
+                    <img src="Imagenes/Parmigiana di Melanazane.jpg" alt="Entrada 2">
+                </div>
+                <div class="menu-info">
+                    <h4>Parmigiana di Melanzane</h4>
+                    <p>Berenjenas con salsa de tomate y queso.</p>
+                    <span class="price">$250</span>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- ================= PLATOS PRINCIPALES ================= -->
+        <h3 class="menu-category">Platos Principales</h3>
+        <div class="menu-grid">
+
+            <div class="menu-item">
+                <div class="menu-img">
+                    <img src="Imagenes/Pizza Margherita.jpg" alt="Plato Principal">
+                </div>
+                <div class="menu-info">
+                    <h4>Pizza Margherita</h4>
+                    <p>clásica con tomate, mozzarella y albahaca.</p>
+                    <span class="price">$280</span>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="menu-img">
+                    <img src="Imagenes/Lasagna alla Bolognese.jpg" alt="Plato Principal">
+                </div>
+                <div class="menu-info">
+                    <h4>Lasagna alla Bolognese </h4>
+                    <p>Capas de pasta con carne y bechamel.</p>
+                    <span class="price">$280</span>
+                </div>
+            </div>
+
+             <div class="menu-item">
+                <div class="menu-img">
+                    <img src="Imagenes/Spaghetti alla Carbonara.jpg" alt="Plato Principal">
+                </div>
+                <div class="menu-info">
+                    <h4>Spaghetti alla Carbonara</h4>
+                    <p>Pasta con huevo, pecorino y guanciale.</p>
+                    <span class="price">$270</span>
+                </div>
+             </div>
+
+                <div class="menu-item">
+                 <div class="menu-img">
+                    <img src="Imagenes/Risotto alla milanese.jpg" alt="Plato Principal">
+                 </div>
+                 <div class="menu-info">
+                    <h4>Risotto alla Milanese </h4>
+                    <p>Arroz cremoso con azafrán.</p>
+                    <span class="price">$300</span>
+                 </div>
+               </div>
+
+                <div class="menu-item">
+                 <div class="menu-img">
+                    <img src="Imagenes/Osso Buco.jpg" alt="Plato Principal">
+                 </div>
+                 <div class="menu-info">
+                    <h4>Osso Buco </h4>
+                    <p>Jarrete de ternera guisado con vino y verduras.</p>
+                    <span class="price">$450</span>
+                 </div>
+               </div>
+
+                <div class="menu-item">
+                 <div class="menu-img">
+                    <img src="Imagenes/Ravioli di Ricotta e Spinaci.jpg" alt="Plato Principal">
+                 </div>
+                 <div class="menu-info">
+                    <h4>Ravioli di Ricotta e Spinaci </h4>
+                    <p>Pasta rellena de ricotta y espinaca.</p>
+                    <span class="price">$280</span>
+                 </div>
+               </div>
+
+
+
+
+        </div>
+
+
+        <!-- ================= POSTRES ================= -->
+        <h3 class="menu-category">Postres</h3>
+        <div class="menu-grid">
+
+            <div class="menu-item">
+                <div class="menu-img">
+                    <img src="Imagenes/Tiramisu 2.jpg" alt="Postre">
+                </div>
+                <div class="menu-info">
+                    <h4>Tiramisù </h4>
+                    <p>Bizcocho con café y crema de mascarpone.</p>
+                    <span class="price">$200</span>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <div class="menu-img">
+                    <img src="Imagenes/Gelato.jpg" alt="Postre">
+                </div>
+                <div class="menu-info">
+                    <h4>Gelato</h4>
+                    <p>Helado artesanal italiano.</p>
+                    <span class="price">$150</span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<section class="section-opiniones">
+    <div class="container">
+
+        <h2 class="opiniones-title">Lo que dicen nuestros clientes</h2>
+
+        <div class="opiniones-preview">
+
+            <div class="opinion-card">
+                <p>"Una experiencia increíble, la comida y el ambiente son perfectos."</p>
+                <span>- María G.</span>
+            </div>
+
+            <div class="opinion-card">
+                <p>"El mejor restaurante que he visitado en mucho tiempo."</p>
+                <span>- Carlos R.</span>
+            </div>
+
+        </div>
+
+        <div class="opiniones-button">
+            <!-- ESTE BOTÓN TE LLEVA A OTRA PÁGINA -->
+            <a href="opiniones.html" class="btn btn-primary">
+                Ver todas las opiniones
+            </a>
+        </div>
+
+    </div>
+</section>
+
+
+
+
+<script src="js/partials.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,130 @@
+header {
+    border-bottom: 1px solid var(--color-divider);
+    padding: 30px 0;
+    width: 100%;
+    background-color: #00000060;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* Contenedor principal */
+.header-expand {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+/* NAV */
+.header-expand nav {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.header-expand nav ul {
+    display: flex;
+    gap: 40px;
+}
+
+.header-expand nav li {
+    list-style: none;
+}
+
+.header-expand nav a {
+    color: var(--color-ligth);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color .3s;
+}
+
+.header-expand nav a:hover {
+    color: var(--color-primary);
+}
+
+/* BOTÓN HAMBURGUESA */
+.btn-toggle {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: var(--color-ligth);
+    border: none;
+    background-color: var(--color-primary);
+    width: 35px;
+    height: 35px;
+    border-radius: 7px;
+}
+
+.btn-toggle i {
+    display: none;
+    font-size: 22px;
+}
+
+.btn-toggle i.active {
+    display: block;
+}
+
+/* MENÚ RESPONSIVE */
+.menu-responsive {
+    position: absolute;
+    left: 0;
+    background-color: var(--color-primary);
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .3s ease-in-out;
+}
+
+.menu-responsive ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+
+.menu-responsive li {
+    list-style: none;
+    width: 100%;
+}
+
+.menu-responsive a {
+    color: var(--color-ligth);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    display: block;
+    transition: color .3s;
+}
+
+.menu-responsive a:hover {
+    color: var(--dark-color-divider);
+}
+
+.menu-responsive.show {
+    max-height: 300px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 992px) {
+
+    header {
+        padding: 15px;
+    }
+
+    .header-expand .container-logo {
+        flex: 1;
+    }
+
+    .header-expand nav,
+    .header-expand .btn-primary {
+        display: none;
+    }
+
+    .header-expand .btn-toggle {
+        display: flex;
+    }
+}
